@@ -16,14 +16,39 @@
     - `cd <directory>`
     - `git clone <url>`
 
-# Part 2 - Anaconda & Jupyter Notebook
+# Part 2 - Python Programming Environment
 
-1. Install Anaconda Individual Edition - [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-    - Anaconda is a Python distribution and package manager. It's a good tool for quickly setting up a learning environment for Python.
-2. Create a new Jupyter Notebook and get comfortable with the format and interface. You can either use VSCode or you can use the Jupyter Notebook web interface. I like VSCode personally but it's up to you.
-    - To use VSCode follow the official guide here:
-        - [https://code.visualstudio.com/docs/python/jupyter-support](https://code.visualstudio.com/docs/python/jupyter-support)
-    - Alternatively you can launch the Jupyter Notebook web interface through Anaconda Navigator or by typing `jupyter notebook` on a terminal prompt (this should work on both OSX and Windows). Once you're in the web interface you can navigate to your project directory and click `New > Notebook:Python` on the right hand side of the page.
+I'll recommend a combination of Anaconda, VSCode and Jupyter Notebook. If you're comfortable setting up your own Python environment without Anaconda, and/or you want to use a different editor then that is totally fine!
+
+## Install Anaconda
+
+Anaconda is a Python distribution and package manager. It's a good tool for quickly setting up a learning environment for Python. You can find the invidual (free) version here:
+
+[https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+
+## VSCode
+
+This is one of the most widely used code editors nowadays and I'd recommend it if you aren't sure what to use or don't have a preference.
+
+https://code.visualstudio.com/
+
+## Setting up Jupyter Notebook
+
+Jupyter Notebook is an interactive notebook interface where you can write Python code and have it run and output within the notebook. It's a great tool for experimenting and learning. It comes with its own web interface but VSCode also has native support for it and I'd recommend using that instead.
+
+### Jupyter Notebooks in VSCode
+
+You can follow the official guide [here](https://code.visualstudio.com/docs/python/jupyter-support). The full steps are in the guide but they should roughly be:
+1. Install Anaconda
+1. Install the VSCode Python extension
+1. Select your Anaconda Python environment in VSCode using the command pallette - Ctrl+Shift+P -> "Python: Select Interpreter"
+1. Create a blank Jupyter Notebook using the command pallette - Ctrl+Shift+P -> "Create New Blank Jupyter Notebook"
+
+In the official guide linked above you'll find a [section](https://code.visualstudio.com/docs/python/jupyter-support#_work-with-code-cells-in-the-notebook-editor) explaining how to write and run code in the notebooks. This explains the interface and the keyboard shortcuts.
+
+### Jupyter Notebooks web interface
+
+Alternatively you can use Jupyter Notebooks through their web interface. You can launch it from Anaconda Navigator or by typing `jupyter notebook` on a terminal prompt. Once you're in the web interface you can navigate to your project directory and click `New > Notebook:Python` on the right hand side of the page. You can find lots of guides online explaining the interface further.
 
 # Part 3 - CSV files with Python standard libraries
 

@@ -51,6 +51,10 @@
 - **Challenge 3** - Use pandas to write the data from **Challenge 2** out to a csv file.
     - **Hint:** There's a simple function that does this, much like reading csv files.
 
+# Experiment
+
+- If you're comfortable with the content above there's another dataset in this directory (`titanic.csv`) you can experiment with. A good challenge with this dataset might be to find the survival rate of different demographics. We can look at this briefly at the start of next class to demonstrate some more features of the `pandas` library.
+
 # Ask if you need help!
 
 I want to set tasks that challenge you and develop your problem solving skills but I don't want you to get completely stuck or spend a long time getting frustrated or confused with something (though that actually *is* a genuine part of the coding experience). If you'd like some help or have any questions then please reach out on Slack or email and I'll be happy to give you some pointers.
